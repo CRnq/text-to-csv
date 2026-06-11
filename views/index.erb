@@ -4,10 +4,20 @@
     <title>Text to CSV</title>
 </head>
 <body>
-    <h1>テキストを空欄に貼り付けて</h1>
+    <h1>テキストを空欄に貼り付ける</h1>
     <form action="/convert" method="post">
         <textarea name="text"></textarea>
         <button type="submit">CSVに変換</button>
     </form>
+
+
+    <p style="width: 350px; border: 1px solid #222;">
+        #データ例<br>
+        経過時間(s),デューティ比,PWM値<br>
+        3,0.0157,4<br>
+        3,0.0157,4<br>
+        4,0.0157,4<br>
+        4,0.0078,2<br>
+    </p>
 </body>
 </html>
