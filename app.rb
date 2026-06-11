@@ -1,6 +1,9 @@
 require 'sinatra'
 require 'csv'
 
+set :bind, '0.0.0.0'
+set :port, ENV.fetch('PORT', 4567)
+
 get '/' do
   erb :index
 end
